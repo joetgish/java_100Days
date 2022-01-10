@@ -1,5 +1,4 @@
-// Reference resource Caleb uses is Wiki Books - Java Programming
-//  https://en.wikibooks.org/wiki/Java_Programming
+
 public class Prac3 {
 
 	public static void main(String[] args) {
@@ -16,12 +15,11 @@ public class Prac3 {
 		long new_val = 222345555L; //8B
 				
 		// floating point categories
-		float tempC = (float)(32.74);
+		float tempC = 32.74f;
 		double tempR = 43.98;
 		double divD = 1.0/3.0;
 		float divF = 1.0f/3.0f;
 		System.out.println(divF);
-		System.out.println(divD);
 		
 
 

@@ -1,5 +1,4 @@
-// Reference resource Caleb uses is Wiki Books - Java Programming
-//  https://en.wikibooks.org/wiki/Java_Programming
+
 public class Prac3 {
 
 	public static void main(String[] args) {
@@ -13,15 +12,9 @@ public class Prac3 {
 		char ch = 'c'; //int -> char is ASCII, better is to use UNICODE
 		short s = 3204;
 		int val = 43566; //4Bytes
-		long new_val = 222345555L; //8B
+		//long val = 222345555L; //8B
 				
 		// floating point categories
-		float tempC = (float)(32.74);
-		double tempR = 43.98;
-		double divD = 1.0/3.0;
-		float divF = 1.0f/3.0f;
-		System.out.println(divF);
-		System.out.println(divD);
 		
 
 
