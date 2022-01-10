@@ -16,7 +16,7 @@ Scanner sc = new Scanner(System.in);
 		System.out.println(tempC);
 		
 		System.out.println("Enter temp (F):");
-		double tempF = sc.nextDouble();
+		double tempF = sc.nextDouble()
 		System.out.println(tempF);
 
 

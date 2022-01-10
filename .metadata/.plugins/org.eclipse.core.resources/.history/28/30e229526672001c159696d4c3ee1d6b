@@ -6,18 +6,14 @@ public class Prac3 {
 
 	public static void main(String[] args) {
 		
-Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
 //		System.out.println("Enter name:");
 //		String name = sc.nextLine();
 //		System.out.println(name);
 		
-		System.out.println("Enter temp (C):");
-		int tempC = sc.nextInt();
-		System.out.println(tempC);
-		
-		System.out.println("Enter temp (F):");
-		double tempF = sc.nextDouble();
-		System.out.println(tempF);
+		System.out.println("Enter temp:");
+		int temp = sc.nextInt();
+		System.out.println(temp);
 
 
 	}
