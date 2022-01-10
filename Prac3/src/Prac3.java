@@ -2,22 +2,15 @@
 public class Prac3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello!");
-		String name = "Harry";
-		System.out.println("Hello " + name);
 		
+		//most common primitive type
+		boolean isGood = true;
+		byte b = 127; /1111111 limited in scope
+		byte d = 'c';
+		char ch = 'c';
 		
-		  String last_name = new String("Wilson"); System.out.println("Hello " +
-		  last_name);
-		  
-		  int valA = 30; Integer valB = 14; int valC = 63; double result;
-		  
-		  result = valA / valB; System.out.println(result);
-		 
-		
-		String str = "Sample String";
-        System.out.println(valB.getClass());
+
+
 	}
 	 
 
