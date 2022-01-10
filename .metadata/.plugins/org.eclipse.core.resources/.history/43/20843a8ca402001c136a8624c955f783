@@ -1,0 +1,21 @@
+
+public class Practice_1 {
+
+	public static void main(String[] args) {
+		double salary = 32000;
+		double TAX_RATE = .04;
+		double taxAmount;
+		double netSalary;
+		double grossSalary;
+		
+		grossSalary = salary;
+		taxAmount = TAX_RATE * salary;
+		
+		
+		
+		System.out.println("This is it!");
+
+
+	}
+
+}

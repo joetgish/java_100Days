@@ -1,0 +1,40 @@
+/**  (Begins the comment)
+*  
+* @author WJ Welch
+*  Date: 26 Aug 2021
+*  Course/Section CMIS 141
+*  Description: More practice!
+*
+*/  
+
+import java.util.Scanner;
+
+public class Practice_2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double salary;
+		double taxRate = .15;
+		double tax;
+		double netSalary;
+		double netMonthly;
+		
+		System.out.println("Enter your yearly salary:");
+		salary = sc.nextDouble();
+		System.out.printf("Entered salary: $ %6.2f\n", salary);
+		
+		tax = salary * taxRate;
+		netSalary = salary - tax;
+		netMonthy = netSalary / 12;
+		
+		System.out.printf("Yearly net salary: $%7.2f \n", netSalary);
+		System.out.printf("Monthly net salary: $%7.2f \n", netMonthly)
+		
+		
+		
+		
+		 
+
+	}
+
+}

@@ -1,0 +1,30 @@
+/**  (Begins the comment)
+*  
+* @author WJ Welch
+*  Date: 26 Aug 2021
+*  Course/Section CMIS 141
+*  Description: More practice!
+*
+*/  
+
+import java.util.Scanner;
+
+public class Practice_2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double salary;
+		double taxRate;
+		double tax;
+		double netSalary;
+		
+		System.out.println("Enter your yearly salary:");
+		salary = sc.nextDouble();
+		System.out.printf("Entered salary: $ %6.2f\n", salary);
+		
+		
+		 
+
+	}
+
+}

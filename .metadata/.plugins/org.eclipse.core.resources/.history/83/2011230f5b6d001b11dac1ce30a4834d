@@ -1,0 +1,29 @@
+
+/**
+ * @author Joe Welch
+ * More practice with java! :)
+ *
+ */
+import java.util.Scanner;
+
+public class Wk2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanstr = new Scanner(System.in);
+		String sent;
+		
+		System.out.println("Enter a sentence: ");
+		sent = scanstr.nextLine();
+		System.out.println(sent);
+ 
+ 
+		
+		
+		
+		scanstr.close();
+		
+		
+	}
+
+}

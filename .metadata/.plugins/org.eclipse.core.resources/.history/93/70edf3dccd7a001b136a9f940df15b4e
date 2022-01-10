@@ -1,0 +1,43 @@
+/**   
+*  
+* @author WJ Welch
+*  Date: 28 Feb 2021
+*  Description: CMIS 141 Assignment 6
+*               Accepts students names, grades and outputs the highest, lowest and list
+*  Notes, comments:
+*
+*/  
+import java.util.Scanner;
+
+public class D6 {
+
+    public static void main(String[] args) {
+		Scanner scanint = new Scanner(System.in);
+		Scanner scanstr = new Scanner(System.in);
+		
+		int studentCount;
+		
+		System.out.println("How many students do you want to enter: ");
+		studentCount = scanint.nextInt();
+		
+		String [] names = new String[studentCount];
+		int [] scores = new int[studentCount];
+		
+		for (int ix = 0; ix < studentCount; ix++) {
+			System.out.print("Student ");
+			System.out.println(ix);
+			
+			System.out.print("Enter student's name:");
+			names[ix] = scanstr.next();
+			System.out.print("Enter student's score:");
+			scores[ix] = scanstr.nextInt();
+
+			
+		}//end for()
+		
+		
+		
+		scanint.close();
+		
+    }//end main
+}//end class Demo6

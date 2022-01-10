@@ -1,0 +1,12 @@
+
+public class Prac3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello!");
+		String name = "Harry";
+		System.out.println("Hello " + name);
+	}
+	 
+
+}
