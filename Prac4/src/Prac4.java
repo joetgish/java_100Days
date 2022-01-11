@@ -10,6 +10,7 @@ public class Prac4 {
 
 		System.out.println(String.format("Hello %s. \nToday is %s.", name, day));
 		System.out.println(name.length());
+		System.out.println(day.length());
 		
 	}//end main()
 	 
