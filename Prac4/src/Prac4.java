@@ -5,26 +5,13 @@
 public class Prac4 {
 
 	public static void main(String[] args) {
-		
-		String numA = "23";
-		String numB = "47";
-		int i_numA;
-		int i_numB;
-		int result;
-		
-		i_numA = Integer.parseInt(numA);
-		i_numB = Integer.parseInt(numB);
-		
-		result = i_numA + i_numB;
-		System.out.println(result);
-		
-		
+		String name = "Maria";
+		String day = "Tuesday";
 
-
-
-
-
-	}
+		System.out.println(String.format("Hello %s. \nToday is %s.", name, day));
+		System.out.println(name.length());
+		
+	}//end main()
 	 
 
-}
+}//end class Prac4
