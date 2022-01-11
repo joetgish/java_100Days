@@ -6,18 +6,9 @@ public class Prac3 {
 
 	public static void main(String[] args) {
 		
-		int a = 7;
-		int b = 15;
-		double result;
-		
-		result = b / a;
-		System.out.println(("Integer division result:"));
-		System.out.println(result);
-		
-		result = b / a;
-		System.out.println(("Integer division result:"));
-		System.out.println(result);
-		
+		int x = 5;
+		System.out.println(++x);
+
 		
 		
 
