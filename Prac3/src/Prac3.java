@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ 
 
 // Reference resource Caleb uses is Wiki Books - Java Programming
 //  https://en.wikibooks.org/wiki/Java_Programming
@@ -6,18 +6,23 @@ public class Prac3 {
 
 	public static void main(String[] args) {
 		
-Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter name:");
-//		String name = sc.nextLine();
-//		System.out.println(name);
+		int a = 7;
+		int b = 15;
+		double result;
 		
-		System.out.println("Enter temp (C):");
-		int tempC = sc.nextInt();
-		System.out.println(tempC);
+		result = b / a;
+		System.out.println(("Integer division result:"));
+		System.out.println(result);
 		
-		System.out.println("Enter temp (F):");
-		double tempF = sc.nextDouble();
-		System.out.println(tempF);
+		result = b / a;
+		System.out.println(("Integer division result:"));
+		System.out.println(result);
+		
+		
+		
+
+
+
 
 
 	}
